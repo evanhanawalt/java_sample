@@ -8,10 +8,10 @@ import java.util.stream.Stream;
 public class Main {
 
     /**
-     * @param args command lines arguments must include the path to a file containing input for the object
+     * @param args program takes exactly 1 argument, the path to the input file
      */
     public static void main(String[] args) {
-        if(args.length != 1){
+        if (args.length != 1) {
             System.err.println("Error, 1 command line input parameter expected: inputFileName");
             System.exit(1);
         }
