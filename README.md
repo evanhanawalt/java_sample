@@ -10,7 +10,7 @@ maven version   3.6.1
 ### Usage
 build/test:
  
- `mvn clean build`
+ `mvn clean install`
 
 to run built code:
 
